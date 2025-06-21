@@ -4,6 +4,8 @@
 
 body{
     font-family: 'Times New Roman', Times, serif;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 h1,h2,h3,#date{
@@ -12,6 +14,10 @@ h1,h2,h3,#date{
 
 h2{
     text-decoration: underline;
+}
+
+a{
+    margin-right: 5px;
 }
 
 article > p {
@@ -31,6 +37,7 @@ table,tr,td{
 #date{
 display: flex;
 justify-content: left;
+font-size: larger;
 }
 
 #userInfo{

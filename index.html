@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cihan Abbak Resume</title>
+    <link rel="stylesheet" href="./css/indexstyle.css">
+</head>
+<body>
+    <header id="headerContainer">
+        <div id="date">Date: </div>
+        <div id="userInfo">
+            <h1 id="cihan">Cihan Abbak</h1>
+            <h3>cihan.cihan@gmail.com || 201-211-5321 || Montclair, NJ</h3>
+        </div>
+    </header>
+    
+    <main id="main">
+        <section id="Professional Summary">
+            <h2>Professional Summary</h2>
+            <article>
+                <p>Creative and detail-oriented Frontend Developer with over <span id="boldWords">6 years</span> of experience building responsive, user-focused web applications. 
+                    Strong foundation in modern <span id="boldWords">JavaScript</span> frameworks.</p> <br>
+                <p>Skilled in translating <span id="boldWords">design prototypes into production-ready interfaces.</span></p> 
+            </article>
+            <ul>
+                <li>Developed pixel-perfect UIs with modern <span id="boldWords">HTML, CSS, and JavaScript</span>.</li>
+                <li>Integrated <span id="boldWords">RESTful APIs</span>.</li>
+                <li>Experienced with <span id="boldWords">CI/CD, Git-based workflows, and Agile</span> development cycles.</li>
+            </ul>
+        </section>
+        <hr>
+        <section id="Technical">
+            <h2>Technical Skills</h2>
+            <table>
+                <caption>Skillset</caption>
+                <tr >
+                    <td><strong>Languages</strong></td>
+                    <td>Java</td>
+                    <td>SQL</td>
+                    <td>JavaScript</td>
+                </tr>
+                <tr>
+                    <td><strong>Frameworks</strong></td>
+                    <td>Maven</td>
+                    <td>Testng</td>
+                    <td>Cucumber</td>
+                </tr>
+                <tr>
+                    <td><strong>Project Building</strong></td>
+                    <td>Maven</td>
+                    <td>POM</td>
+                    <td>MOV</td>
+                </tr>
+            </table>
+        </section>        
+    </main>
+    <hr>
+    <footer>
+       <nav>links to other docs</nav>
+    </footer>
+    
+    <script>
+        let docDate = document.getElementById("date");
+        const currentDate = new Date();
+        let todayDate = (currentDate.getMonth()+1)+"/"+currentDate.getDate()+"/"+currentDate.getFullYear();
+        docDate.textContent += todayDate;
+        
+        console.log("YOU ARE READING THIS MESSAGE ON: "+todayDate);
+    </script>
+</body>
+</html>

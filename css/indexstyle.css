@@ -1,0 +1,48 @@
+:root {
+  --main-color: rgb(70, 92, 123);
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1,h2,h3,#date{
+    color: var(--main-color);
+}
+
+h2{
+    text-decoration: underline;
+}
+
+article > p {
+    margin: 0;
+}
+
+table,tr,td{
+    border: solid 1px;
+    border-color: var(--main-color);
+}
+
+#header{
+    display: flex;
+    flex-direction: column;
+}
+
+#date{
+display: flex;
+justify-content: left;
+}
+
+#userInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cihan{
+    margin-bottom: 0;
+}
+
+#boldWords{
+    font-weight: bold;
+}

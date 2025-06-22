@@ -9,7 +9,7 @@
 </head>
 <body id="goalsBody">
     <div id="medias">
-        <video autoplay controls src="./abbak_video2.mp4"></video>
+        <video autoplay controls src="./abbak_video.mp4"></video>
         <audio autoplay controls src="./Abbak_audio.MP3"></audio>
     </div>
 
@@ -38,21 +38,7 @@
             <h3>Contact Me:</h2>
                 <form action="https://wp.zybooks.com/form-viewer.php">
                     <div id="formContainer">
-                        <!--~   
 
-
-
-
-
-~   message (text area)
-
-~   best contact time (radio buttons)
-
-    •   a.m., p.m., anytime
-
-~   select (single option)
-
- •   phone, email, or text-->
                         <label for="firstName">First Name:</label><br>
                         <input type="text" name="firstName" id="firstName">
                         
@@ -74,8 +60,8 @@
                         <input type="tel" name="tel" id="tel">
                     </div>
                     <div id="formContainer">
-                        <label for="message">Message:</label><br>
-                        <textarea rows="4" cols="30" name="message" id="message">Enter your message...</textarea>
+                        <label for="message" >Message:</label><br>
+                        <textarea rows="4" cols="30" name="message" id="message" placeholder="Enter your message here..."></textarea>
                     </div>
                     <div id="formContainer">
                         <label>Best Contact Time:</label><br>
@@ -91,7 +77,9 @@
                         <option value="Phone">Phone</option>
                         <option value="Email">Email</option>
                         <option value="Text">Text</option>
-                    </select>
+                    </select><br>
+                    <img class="arrow" src="./rightArrow.png" alt="rightArrow">
+                    <button id="formContainer">Submit</button>
                 </form>
         </div>
     </main> 

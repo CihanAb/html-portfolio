@@ -1,3 +1,7 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
 :root {
   --main-color: rgb(70, 92, 123);
 }
@@ -7,8 +11,8 @@ a:hover{
 }
 
 body{
-    font-family: 'Times New Roman', Times, serif;
     margin:3% 5% 3% 5% ;
+    font-style: normal;
 }
 
 h1,h2,h3,#date{
@@ -70,11 +74,19 @@ video{
     object-fit: cover;    
 }
 
-#goalList > li{
+#resumeList > ul{
     color: var(--main-color);
+    list-style: square;
 }
 
 #formContainer{
     margin-top: 10px;
+}
+
+.arrow{
+    width: 20px;
+    height: 20px;
+    padding-top: 10px;
+    border-right: 10px;
 }
 
